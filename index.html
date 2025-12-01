@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="style.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
@@ -57,7 +59,7 @@
             </div>
 
             <div class="btn-group">
-                <a href="#" class="btn">CV</a>
+                <a href="kasim-sahin-cv.pdf" download="kasim-sahin-cv.pdf" class="btn">CV İndir</a>
                 <a href="#contact" class="btn">Bana Ulaş</a>
             </div>
         </div>
@@ -179,6 +181,13 @@
             <div class="input-group2">
                 <textarea placeholder="Mesajınız" id="textarea" rows="10"></textarea>
                 <button type="button" value="Mesajı Gönder" class="btn" onclick="sendEmail()">Mesajı Gönder</button>
+                <div class="alert hide" id="emailAlert">
+                    <span class="fas fa-exclamation-circle"></span>
+                    <span class="msg" id="alertMsg">Warning message</span>
+                    <div class="close-btn">
+                        <span class="fas fa-times"></span>
+                    </div>
+                </div>
             </div>
         </form>
     </section>
@@ -209,6 +218,7 @@
     </footer>
     <!-- Footer End -->
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
 </body>
 
