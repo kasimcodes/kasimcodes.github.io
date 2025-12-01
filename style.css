@@ -551,12 +551,6 @@ footer .copyright {
 /* Footer End */
 
 /* Media Queries Start */
-<<<<<<< HEAD
-@media (max-width: 1480) {
-}
-
-=======
->>>>>>> 3fab8a295dd021fda5b746f710c4b1aebedc3208
 @media (max-width: 1285px) {
   html {
     font-size: 55%;
@@ -568,21 +562,10 @@ footer .copyright {
     margin: 0 5rem;
   }
 
-<<<<<<< HEAD
-  .services h2 {
-    margin-top: 10rem;
-  }
-
-  .service-info h4 {
-    font-size: 2rem;
-  }
-
-=======
   .services h2{
     margin-top: 10rem;
   }
 
->>>>>>> 3fab8a295dd021fda5b746f710c4b1aebedc3208
   .home-content h3 {
     font-size: 2.8rem;
   }
@@ -591,27 +574,13 @@ footer .copyright {
     font-size: 3.8rem;
   }
 
-<<<<<<< HEAD
-  .contact h2 {
-=======
   .contact h2{
->>>>>>> 3fab8a295dd021fda5b746f710c4b1aebedc3208
     margin-top: 8rem;
   }
 
   section {
     padding: 0 5%;
   }
-<<<<<<< HEAD
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  .services-container {
-    grid-template-columns: repeat(1, 1fr);
-  }
-=======
-
->>>>>>> 3fab8a295dd021fda5b746f710c4b1aebedc3208
 }
 
 @media (max-width: 991px) {
@@ -620,19 +589,7 @@ footer .copyright {
   }
 
   section {
-<<<<<<< HEAD
-    padding: 10% 7% 10% 5%;
-  }
-
-  .home-img {
-    padding-bottom: 10rem;
-  }
-
-  .home-img img {
-    width: 30vw;
-=======
     padding: 10% 7% 0 5%;
->>>>>>> 3fab8a295dd021fda5b746f710c4b1aebedc3208
   }
 
   .services {
@@ -651,10 +608,6 @@ footer .copyright {
   #menu-icon {
     display: block;
     cursor: pointer;
-<<<<<<< HEAD
-=======
-
->>>>>>> 3fab8a295dd021fda5b746f710c4b1aebedc3208
   }
 
   .navbar {
@@ -678,11 +631,7 @@ footer .copyright {
     color: var(--text-color);
   }
 
-<<<<<<< HEAD
-  .navbar.active {
-=======
   .navbar.active{
->>>>>>> 3fab8a295dd021fda5b746f710c4b1aebedc3208
     display: block;
   }
 
@@ -706,56 +655,28 @@ footer .copyright {
 
   .home-img img {
     margin: 3rem auto -8rem auto;
-<<<<<<< HEAD
-    width: 50vw;
-=======
     width: 40vw;
->>>>>>> 3fab8a295dd021fda5b746f710c4b1aebedc3208
   }
 
   .services-container {
     grid-template-columns: repeat(1, 1fr);
   }
 
-<<<<<<< HEAD
-  .service-info h4 {
-    font-size: 2rem;
-  }
-
-  .service-info p {
-    font-size: 1.5rem;
-    font-weight: 500;
-  }
-
-=======
->>>>>>> 3fab8a295dd021fda5b746f710c4b1aebedc3208
   .services h2 {
     margin-bottom: 3rem;
   }
 
   .timeline-items::before {
-<<<<<<< HEAD
-    left: 7px;
-=======
     left: 7px; 
->>>>>>> 3fab8a295dd021fda5b746f710c4b1aebedc3208
   }
 
   .timeline-item:nth-child(odd),
   .timeline-item:nth-child(even) {
-<<<<<<< HEAD
-    margin: 0;
-  }
-
-  .timeline-dot {
-    left: 0 !important;
-=======
     margin: 0; 
   }
 
   .timeline-dot {
     left: 0 !important; 
->>>>>>> 3fab8a295dd021fda5b746f710c4b1aebedc3208
     right: 0 !important;
   }
 
@@ -765,19 +686,11 @@ footer .copyright {
     margin-left: 37px;
   }
 
-<<<<<<< HEAD
-  .timeline-date {
-    margin-left: 30px;
-  }
-
-  .input-group2 {
-=======
   .timeline-date{
     margin-left: 30px;
   }
 
   .input-group2{
->>>>>>> 3fab8a295dd021fda5b746f710c4b1aebedc3208
     margin-right: auto;
   }
 }
@@ -787,13 +700,6 @@ footer .copyright {
     font-size: 2.2rem;
   }
 
-<<<<<<< HEAD
-  .home-img img {
-    width: 60vw;
-  }
-
-=======
->>>>>>> 3fab8a295dd021fda5b746f710c4b1aebedc3208
   .home {
     gap: 10rem;
     width: 100%;
@@ -870,16 +776,7 @@ footer .copyright {
     font-size: 1.7rem;
     line-height: 1;
   }
-<<<<<<< HEAD
-
-  textarea {
-    max-width: 90%;
-    box-sizing: border-box;
-    resize: vertical; /* sadece yükseklik değişsin */
-  }
-=======
   
->>>>>>> 3fab8a295dd021fda5b746f710c4b1aebedc3208
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -901,22 +798,6 @@ footer .copyright {
   }
 }
 
-<<<<<<< HEAD
-@media (max-width: 460px) {
-  .service-info h4 {
-    font-size: 2rem;
-  }
-
-  .service-info p {
-    font-size: 1.6rem;
-  }
-
-  .education h3 {
-    font-size: 2rem;
-  }
-
-  .education p {
-=======
 @media (max-width: 460px){
   .service-info h4{
     font-size: 2rem;
@@ -931,7 +812,6 @@ footer .copyright {
   }
 
   .education p{
->>>>>>> 3fab8a295dd021fda5b746f710c4b1aebedc3208
     font-size: 1.5rem;
     font-weight: 300;
   }
