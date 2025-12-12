@@ -555,23 +555,6 @@ section {
   font-size: 18px;
   color: #ce8500;
 }
-.alert .close-btn{
-  position: absolute;
-  right: 0px;
-  top: 50%;
-  transform: translateY(-50%);
-  background: #ffd080;
-  padding: 20px 18px;
-  cursor: pointer;
-}
-.alert .close-btn:hover{
-  background: #ffc766;
-}
-.alert .close-btn .fas{
-  color: #ce8500;
-  font-size: 22px;
-  line-height: 40px;
-}
 
 /* Contact End */
 
